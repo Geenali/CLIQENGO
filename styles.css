@@ -29,6 +29,7 @@ header {
     display: flex;
     flex-direction: column;
     padding: 5rem;
+    background: #d8e6ed;
 }
 
 .brand-name {
@@ -68,4 +69,11 @@ header {
 
 .right {
     flex: 1 1 30%;
+    background-image: url(./phone-screen.jpeg);
+    background-size: cover;
+}
+
+.phone-screen {
+    height: 100%;
+    width: 100%;
 }
